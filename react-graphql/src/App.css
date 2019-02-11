@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 20vmin;
+}
+.headTitle{
+  font-family: -webkit-pictograph ;
+  font-size: 30px !important;
+  font-style: italic;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bg {
+
+  background: url('https://mdbootstrap.com/img/Photos/Others/images/91.jpg') no-repeat center center fixed; 
+  /* Full height */
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  min-width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.MuiPaper-elevation2-102{
+  background: #d1f6ff96 !important;
+  box-shadow: 0px 1px 5px 0px rgb(207, 206, 208), 0px 2px 2px 0px rgb(207, 206, 208), 0px 3px 2px 1px rgb(207, 206, 208) !important;
+}
+
+.welcome-div{
+font-size: 70px;
+    /* text-align: center; */
+    font-family: 'none';
+    -webkit-font-feature-settings: "pcap";
+    font-feature-settings: "pcap";
+    font-variant: petite-caps;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    color: antiquewhite;
+    background: #b26bad00;
+    padding: 20px;
+    border-radius: 100px;
+}
+.title-text{
+  background: -webkit-linear-gradient(#ff4d00, #fff, #02ff3c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
